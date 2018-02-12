@@ -24,11 +24,11 @@
             <div class="nav-wrapper container">
             <a href="index.jsp" class="brand-logo">Alex and Jed</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#">
+                <li><a href="Products.jsp">
                     <i class="material-icons left">border_all</i>
                     Products
                 </a></li>
-                <li class="active"><a href="CustomerForm.jsp">
+                <li class="active"><a href="PlaceOrderController.jsp">
                     <i class="material-icons left">shopping_cart</i>
                     Place an order
                 </a></li>

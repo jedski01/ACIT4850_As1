@@ -22,7 +22,7 @@
             <div class="nav-wrapper container">
             <a href="#" class="brand-logo">Alex and Jed</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#">
+                <li><a href="Products.jsp">
                     <i class="material-icons left">border_all</i>
                     Products
                 </a></li>

@@ -25,11 +25,11 @@
             <div class="nav-wrapper container">
             <a href="index.jsp" class="brand-logo">Alex and Jed</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#">
+                <li><a href="Products.jsp">
                     <i class="material-icons left">border_all</i>
                     Products
                 </a></li>
-                <li><a href="CustomerForm.jsp">
+                <li class="ative"><a href="PlaceOrderController.jsp">
                     <i class="material-icons left">shopping_cart</i>
                     Place an order
                 </a></li>
@@ -40,24 +40,24 @@
 
         <div class="container">
         <div class="section">
-                <h4 class="blue-text">Customer Information Summary</h4>
+            <h4 class="blue-text">Customer Information Summary</h4>
 
-                <h5 class="valign-wrapper"><i class="material-icons">account_circle</i>Name</h5>
-                <%= customer.getFirstName()%> <%= customer.getLastName()%>
-                <div class="divider"></div>
+            <h5 class="valign-wrapper"><i class="material-icons">account_circle</i>Name</h5>
+            <%= customer.getFirstName()%> <%= customer.getLastName()%>
+            <div class="divider"></div>
 
 
-                <h5 class="valign-wrapper"><i class="material-icons">email</i>Email</h5>
-                <%= customer.getEmail()%> 
-                <div class="divider"></div>
+            <h5 class="valign-wrapper"><i class="material-icons">email</i>Email</h5>
+            <%= customer.getEmail()%> 
+            <div class="divider"></div>
 
-                <h5 class="valign-wrapper"><i class="material-icons">home</i>Address</h5>
-                <%= customer.getAddress()%> 
-                <div class="divider"></div>
+            <h5 class="valign-wrapper"><i class="material-icons">home</i>Address</h5>
+            <%= customer.getAddress()%> 
+            <div class="divider"></div>
 
-                <h5 class="valign-wrapper"><i class="material-icons">phone</i>Phone</h5>
-                <%= customer.getPhone()%> 
-                <div class="divider"></div>
+            <h5 class="valign-wrapper"><i class="material-icons">phone</i>Phone</h5>
+            <%= customer.getPhone()%> 
+            <div class="divider"></div>
 
         </div>
 

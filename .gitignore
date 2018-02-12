@@ -1,4 +1,6 @@
 WEB-INF/lib
 WEB-INF/classes/model/*.class
 WEB-INF/classes/database/*.class
+WEB-INF/classes/database/*.accdb
+WEB-INF/classes/database/*.laccdb
 WEB-INF/*.xml

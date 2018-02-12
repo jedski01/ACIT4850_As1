@@ -1,5 +1,7 @@
 package model;
 
+import database.Database;
+
 public class Customer{
 
     String lastName;
@@ -7,6 +9,9 @@ public class Customer{
     String address;
     String phone;
     String email;
+    int id;
+
+    Database db = new Database();
 
     public void setLastName(String value){ 
         lastName = value;
@@ -46,6 +51,23 @@ public class Customer{
 
     public String getEmail() {
         return email;
+    }
+
+    public String save() {
+        
+        String result = db.saveCustomer(lastName, firstName, phone, email, address);
+        
+        return result;    
+    }
+
+    public void setId() {
+        
+        int result = db.getCustomerId(lastName, firstName, phone);
+        this.id = result;
+    }
+
+    public int getId() {
+        return this.id;
     }
 
     

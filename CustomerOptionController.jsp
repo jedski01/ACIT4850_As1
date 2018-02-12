@@ -5,7 +5,7 @@
     if (action.equals("confirm")){
         response.sendRedirect("ConfirmCustomerController.jsp");
     } else if(action.equals("cancel")) {
-        session.invalidate();
+        session.removeAttribute("customer");
         response.sendRedirect("index.jsp");
     } else if(action.equals("back")) {
         response.sendRedirect("CustomerForm.jsp");
